@@ -4,8 +4,8 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
 
-TELEGRAM_BOT_TOKEN = os.getenv("8143297753:AAHb03g4xkwI8FQsqU0obNrcGUNl_qGidro")
-DIFY_API_KEY = os.getenv("app-fLkRLLP22JjAXQgIUy9w4e4R")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+DIFY_API_KEY = os.getenv("DIFY_API_KEY")
 DIFY_API_URL = "https://api.dify.ai/v1/chat-messages"
 
 logging.basicConfig(level=logging.INFO)
